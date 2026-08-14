@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OAMPS19 Committee Voting</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="card">
+      <h1>OAMPS19 Committee Voting</h1>
+      <p>Vote YES or NO for every committee member.</p>
+
+      <form id="voteForm"></form>
+
+      <button id="submitBtn" disabled>Submit Vote</button>
+
+      <div id="message"></div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="app.js"></script>
+</body>
+</html>
